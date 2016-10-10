@@ -10,4 +10,4 @@ COPY NDP462-KB3151800-x86-x64-AllOS-ENU.exe .
 # Because the image doesn't support UI, use /q
 RUN NDP462-KB3151800-x86-x64-AllOS-ENU.exe /q
 
-CMD [ "cmd" ]
+WORKDIR /
